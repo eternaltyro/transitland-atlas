@@ -2,6 +2,13 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
   "feeds": [
     {
+      "id": "f-3km~mds",
+      "spec": "mds",
+      "urls": {
+        "mds_provider": "https://mds.ario.ai"
+      }
+    },
+    {
       "id": "f-atom~mobility~mds",
       "spec": "mds",
       "urls": {
@@ -86,11 +93,27 @@
       }
     },
     {
+      "id": "f-deutsche~bahn~connect~mds",
+      "spec": "mds",
+      "urls": {
+        "gbfs_auto_discovery": "https://apis.deutschebahn.com/db-api-marketplace/apis/shared-mobility-gbfs/2-2/de/CallABike/gbfs/",
+        "mds_provider": "https://bike-prod.msp.dbrent.net/mds/"
+      }
+    },
+    {
       "id": "f-dott~mds",
       "spec": "mds",
       "urls": {
         "gbfs_auto_discovery": "https://gbfs.api.ridedott.com",
         "mds_provider": "https://mds.api.ridedott.com"
+      }
+    },
+    {
+      "id": "f-flamingo~mds",
+      "spec": "mds",
+      "urls": {
+        "gbfs_auto_discovery": "https://data.rideflamingo.com/gbfs/3/manifest.json",
+        "mds_provider": "https://data.rideflamingo.com/mds/"
       }
     },
     {
@@ -109,6 +132,14 @@
       }
     },
     {
+      "id": "f-gosharing~mds",
+      "spec": "mds",
+      "urls": {
+        "gbfs_auto_discovery": "https://complianceapi.binbinapp.com/api/gbfs/",
+        "mds_provider": "https://complianceapi.binbinapp.com/api/mds/"
+      }
+    },
+    {
       "id": "f-grin~mds",
       "spec": "mds",
       "urls": {
@@ -121,6 +152,13 @@
       "spec": "mds",
       "urls": {
         "mds_provider": "https://mds.helbiz.com"
+      }
+    },
+    {
+      "id": "f-helloride~mds",
+      "spec": "mds",
+      "urls": {
+        "mds_provider": "https://mds-api.hellobike.com/mds/"
       }
     },
     {
@@ -175,6 +213,13 @@
       }
     },
     {
+      "id": "f-mywheels~mds",
+      "spec": "mds",
+      "urls": {
+        "mds_provider": "https://mds.mywheels.nl"
+      }
+    },
+    {
       "id": "f-nextbike~mds",
       "spec": "mds",
       "urls": {
@@ -220,6 +265,13 @@
       }
     },
     {
+      "id": "f-scooty~mds",
+      "spec": "mds",
+      "urls": {
+        "mds_provider": "https://oto-api.otoride.co/api/v2/mds/"
+      }
+    },
+    {
       "id": "f-scoot~mds",
       "spec": "mds",
       "urls": {
@@ -262,6 +314,13 @@
       "spec": "mds",
       "urls": {
         "mds_provider": "https://web.spin.pm/api/mds/v1"
+      }
+    },
+    {
+      "id": "f-starship~technologies~mds",
+      "spec": "mds",
+      "urls": {
+        "mds_provider": "https://mds-provider.starship.xyz/api/v1/mds/"
       }
     },
     {
